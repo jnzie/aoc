@@ -46,6 +46,7 @@ executable AOC-exe
   build-depends:
       AOC
     , base >=4.7 && <5
+    , vector
   default-language: Haskell2010
 
 test-suite AOC-test

@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "AOC:lib"
+
+    - path: "./app/Main.hs"
+      component: "AOC:exe:AOC-exe"
+
+    - path: "./app/Paths_AOC.hs"
+      component: "AOC:exe:AOC-exe"
+
+    - path: "./test"
+      component: "AOC:test:AOC-test"
